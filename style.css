@@ -1,0 +1,25 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: white;
+}
+
+li{
+    font-size: x-large;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 15px;
+    list-style-position: inside;
+    background-color: white;
+}
