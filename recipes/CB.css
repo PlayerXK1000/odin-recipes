@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #d2691e; /* Chocolate color */
+}
+
+h3 {
+    font-style: italic;
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h4 {
+    color: #8b4513; /* SaddleBrown color */
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #8b4513; /* SaddleBrown border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background for contrast */
+}
+
+li {
+    margin: 5px 0;
+    list-style-position: inside;
+}
+
+p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3, h4 {
+        font-size: 1.2em;
+    }
+}
